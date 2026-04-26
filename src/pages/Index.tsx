@@ -114,7 +114,7 @@ export default function Index() {
               <Icon name="Bot" size={16} className="text-white" />
             </div>
             <span className="font-montserrat font-black text-lg gradient-text">
-              BotName
+              RONGE RUSSIA
             </span>
           </button>
 
@@ -331,7 +331,7 @@ export default function Index() {
             <div className="space-y-4">
               {[
                 { icon: "Send", label: "Telegram-бот", value: "@yourbot", href: "#" },
-                { icon: "Mail", label: "Email", value: "hello@project.ru", href: "mailto:hello@project.ru" },
+                { icon: "Mail", label: "Email", value: "Udidj759@yandex.ru", href: "mailto:Udidj759@yandex.ru" },
                 { icon: "MessageCircle", label: "Поддержка", value: "Написать в чат", href: "#" },
               ].map((contact, i) => (
                 <a
@@ -367,7 +367,7 @@ export default function Index() {
             <div className="w-5 h-5 rounded-md bg-gradient-to-br from-purple-500 to-cyan-400 flex items-center justify-center">
               <Icon name="Bot" size={11} className="text-white" />
             </div>
-            <span>BotName © 2024</span>
+            <span>RONGE RUSSIA © 2024</span>
           </div>
           <div className="flex items-center gap-6">
             {NAV_ITEMS.map((item) => (
