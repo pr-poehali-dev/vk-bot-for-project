@@ -9,40 +9,22 @@ const NAV_ITEMS = [
 
 const SOCIAL_LINKS = [
   {
-    name: "Telegram",
-    icon: "Send",
-    handle: "@yourbot",
-    desc: "Чат и поддержка",
-    href: "#",
-    color: "from-[#2aabee] to-[#229ed9]",
-    glow: "rgba(42,171,238,0.4)",
-  },
-  {
-    name: "VK",
-    icon: "Users",
-    handle: "vk.com/project",
-    desc: "Сообщество",
-    href: "#",
+    name: "Тех. поддержка",
+    icon: "Headphones",
+    handle: "vk.com/id847666543",
+    desc: "Написать в поддержку",
+    href: "https://vk.com/id847666543",
     color: "from-[#4c75a3] to-[#3b5c8a]",
     glow: "rgba(76,117,163,0.4)",
   },
   {
-    name: "Instagram",
-    icon: "Camera",
-    handle: "@project",
-    desc: "Фото и истории",
-    href: "#",
-    color: "from-[#f472b6] to-[#a855f7]",
-    glow: "rgba(244,114,182,0.4)",
-  },
-  {
-    name: "Сайт",
-    icon: "Globe",
-    handle: "project.ru",
-    desc: "Официальный сайт",
-    href: "#",
-    color: "from-[#22d3ee] to-[#a855f7]",
-    glow: "rgba(168,85,247,0.4)",
+    name: "Сообщество VK",
+    icon: "Users",
+    handle: "Вступить в группу",
+    desc: "Новости и обновления",
+    href: "https://vk.me/join/TStXhGDz9hi3NEq6/bAaVrTt0povudv68EM=",
+    color: "from-[#6a9fd8] to-[#4c75a3]",
+    glow: "rgba(106,159,216,0.4)",
   },
 ];
 
@@ -330,9 +312,8 @@ export default function Index() {
           <div className="glass-card rounded-3xl p-8 md:p-10 border border-purple-500/20">
             <div className="space-y-4">
               {[
-                { icon: "Send", label: "Telegram-бот", value: "@yourbot", href: "#" },
+                { icon: "Users", label: "Тех. поддержка VK", value: "vk.com/id847666543", href: "https://vk.com/id847666543" },
                 { icon: "Mail", label: "Email", value: "Udidj759@yandex.ru", href: "mailto:Udidj759@yandex.ru" },
-                { icon: "MessageCircle", label: "Поддержка", value: "Написать в чат", href: "#" },
               ].map((contact, i) => (
                 <a
                   key={i}
