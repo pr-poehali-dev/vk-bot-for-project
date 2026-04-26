@@ -26,6 +26,15 @@ const SOCIAL_LINKS = [
     color: "from-[#6a9fd8] to-[#4c75a3]",
     glow: "rgba(106,159,216,0.4)",
   },
+  {
+    name: "Telegram-канал",
+    icon: "Send",
+    handle: "@rongetusslaapk",
+    desc: "Вступить и скачать игру",
+    href: "https://t.me/rongetusslaapk",
+    color: "from-[#2aabee] to-[#1a8bc7]",
+    glow: "rgba(42,171,238,0.4)",
+  },
 ];
 
 const FEATURES = [
